@@ -12,6 +12,9 @@ class dbManager(object):
             5- get_by_role(role)\n
             6- insert_admin(username, role, password)\n
             7- delete_from_admin(id, session_username)\n
+            8- get_ingredients()\n
+            9- update_ingredient(id, quantity)\n
+            10- remove_ingredient(name, day)
         '''
         self.mysql = MySQL()
         self.mysql.init_app(app)
