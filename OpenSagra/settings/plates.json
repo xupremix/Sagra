@@ -1,0 +1,485 @@
+{
+    "monday":{
+        "plates":{
+            "panino":{
+                "name":"Panino",
+                "description":"Semplice panino",
+                "ingredients":{
+                    "pane": 2,
+                    "sopressa": 1,
+                    "formaggio": 1
+                },
+                "cost": 2.50
+            }
+        }
+    },
+    "tuesday":{
+        "plates":{
+            "panino":{
+                "name":"Panino",
+                "description":"Semplice panino",
+                "ingredients":{
+                    "pane": 2,
+                    "sopressa": 1,
+                    "formaggio": 1
+                },
+                "cost": 2.50
+            }
+        }
+    },
+    "wednesday":{
+        "plates":{
+            "panino":{
+                "name":"Panino",
+                "description":"Semplice panino",
+                "ingredients":{
+                    "pane": 2,
+                    "sopressa": 1,
+                    "formaggio": 1
+                },
+                "cost": 2.50
+            }
+        }
+    },
+    "thursday":{
+        "plates":{
+            "panino":{
+                "name":"Panino",
+                "description":"Semplice panino",
+                "ingredients":{
+                    "pane": 2,
+                    "sopressa": 1,
+                    "formaggio": 1
+                },
+                "cost": 2.50
+            }
+        }
+    },
+    "friday":{
+        "plates":{
+            "panino":{
+                "name":"Panino",
+                "description":"Semplice panino",
+                "ingredients":{
+                    "pane": 2,
+                    "sopressa": 1,
+                    "formaggio": 1
+                },
+                "cost": 2.50
+            },
+            "costine_fagioli":{
+                "name":"Costine e fagioli",
+                "description":"Costine e fagioli",
+                "ingredients":{
+                    "fagioli": 2,
+                    "costine": 3
+                },
+                "cost": 9
+            },
+            "costine_patatine": {
+                "name": "Costine e patatine",
+                "description": "Costine e patatine",
+                "ingredients": {
+                    "patatine": 2,
+                    "sale": 1,
+                    "costine": 3
+                },
+                "cost": 9
+            },
+            "costine_funghi": {
+                "name": "Costine e funghi",
+                "description": "Costine e funghi",
+                "ingredients": {
+                    "funghi": 2,
+                    "costine": 3
+                },
+                "cost": 9
+            }
+        },
+        "bevande": {
+            "birra_speciale":{
+                "name":"Birra speciale",
+                "description":"Birra speciale",
+                "ingredients":{
+                    "birra_05": 1
+                },
+                "cost": 4
+            },
+            "giro_birra_speciale":{
+                "name":"Giro Birra speciale",
+                "description":" 8 birre speciali",
+                "ingredients":{
+                    "birra_05": 8
+                },
+                "cost": 24
+            }
+        }
+    },
+    "saturday":{
+        "plates":{
+            "piatto_bocia_wurstel":{
+                "name":"Piatto bocia",
+                "description":"Piatto bocia con wurstel e patatine",
+                "ingredients":{
+                    "wurstel": 2,
+                    "patatine": 2,
+                    "sale": 1
+                },
+                "cost": 5
+            },
+            "piatto_bocia_salsiccia":{
+                "name":"Piatto bocia",
+                "description":"Piatto bocia con salsiccia e patatine",
+                "ingredients":{
+                    "salsiccia": 2,
+                    "patatine": 2,
+                    "sale": 1
+                },
+                "cost": 5
+            },
+            "braciola_patatine_polenta":{
+                "name":"Braciola",
+                "description":"Braciola con patatine e polenta",
+                "ingredients":{
+                    "polenta": 2,
+                    "patatine": 2,
+                    "sale": 1,
+                    "braciola":2
+                },
+                "cost": 8
+            },
+            "braciola_fagioli_polenta":{
+                "name":"Braciola",
+                "description":"Braciola con fagioli e polenta",
+                "ingredients":{
+                    "polenta": 2,
+                    "fagioli": 2,
+                    "braciola":2
+                },
+                "cost": 8
+            },
+            "braciola_funghi_polenta":{
+                "name":"Braciola",
+                "description":"Braciola con funghi e polenta",
+                "ingredients":{
+                    "polenta": 2,
+                    "funghi": 2,
+                    "braciola":2
+                },
+                "cost": 8
+            },
+            "piatto_misto_polenta":{
+                "name":"Piatto misto",
+                "description":"Piatto salsiccia, costina, pancetta, wurstel e polenta",
+                "ingredients":{
+                    "polenta": 1,
+                    "salsiccia": 1,
+                    "costine": 1,
+                    "pancetta": 1,
+                    "wurstel": 1
+                },
+                "cost": 8
+            }
+        }
+    },
+    "sunday":{
+        "plates":{
+            "piatto_bocia_wurstel":{
+                "name":"Piatto bocia",
+                "description":"Piatto bocia con wurstel e patatine",
+                "ingredients":{
+                    "wurstel": 2,
+                    "patatine": 2,
+                    "sale": 1
+                },
+                "cost": 5
+            },
+            "piatto_bocia_salsiccia":{
+                "name":"Piatto bocia",
+                "description":"Piatto bocia con salsiccia e patatine",
+                "ingredients":{
+                    "salsiccia": 2,
+                    "patatine": 2,
+                    "sale": 1
+                },
+                "cost": 5
+            },
+            "braciola_patatine_polenta":{
+                "name":"Braciola",
+                "description":"Braciola con patatine e polenta",
+                "ingredients":{
+                    "polenta": 2,
+                    "patatine": 2,
+                    "sale": 1,
+                    "braciola":2
+                },
+                "cost": 8
+            },
+            "braciola_fagioli_polenta":{
+                "name":"Braciola",
+                "description":"Braciola con fagioli e polenta",
+                "ingredients":{
+                    "polenta": 2,
+                    "fagioli": 2,
+                    "braciola":2
+                },
+                "cost": 8
+            },
+            "braciola_funghi_polenta":{
+                "name":"Braciola",
+                "description":"Braciola con funghi e polenta",
+                "ingredients":{
+                    "polenta": 2,
+                    "funghi": 2,
+                    "braciola":2
+                },
+                "cost": 8
+            },
+            "piatto_misto_polenta":{
+                "name":"Piatto misto",
+                "description":"Piatto salsiccia, costina, pancetta, wurstel e polenta",
+                "ingredients":{
+                    "polenta": 1,
+                    "salsiccia": 1,
+                    "costine": 1,
+                    "pancetta": 1,
+                    "wurstel": 1
+                },
+                "cost": 8
+            }
+        }
+    },
+    "everyday":{
+        "plates":{
+            "patatine_fritte":{
+                "name":"Patatine fritte",
+                "description":"Confezione patatine fritte",
+                "ingredients":{
+                    "patatine": 2,
+                    "sale": 1
+                },
+                "cost": 1.50
+            },
+            "panin_onto":{
+                "name":"Panin onto",
+                "description":"Panin onto",
+                "ingredients":{
+                    "pane": 2,
+                    "salsiccia": 1,
+                    "peperoni": 1,
+                    "cipolla": 1
+                },
+                "cost": 4
+            },
+            "tagliata_patatine_fritte":{
+                "name":"Tagliata e patatine fritte",
+                "description":"Tagliata e patatine fritte",
+                "ingredients":{
+                    "patatine": 2,
+                    "sale": 1,
+                    "tagliata": 1
+                },
+                "cost": 10
+            }
+        },
+        "dolci":{
+            "fetta_meringata":{
+                "name":"Fetta Meringata",
+                "description":"Fetta di meringata",
+                "ingredients":{
+                    "meringata": 0.125
+                },
+                "cost": 1.50
+            },
+            "fetta_crostata_ciliegia":{
+                "name":"Fetta Crostata alla ciliegia",
+                "description":"Fetta di crostata alla ciliegia",
+                "ingredients":{
+                    "crostata_ciliegia": 0.125
+                },
+                "cost": 1.50
+            },
+            "fetta_crostata_albicocca":{
+                "name":"Fetta Crostata alla albicocca",
+                "description":"Fetta di crostata alla albicocca",
+                "ingredients":{
+                    "crostata_albicocca": 0.125
+                },
+                "cost": 1.50
+            }
+        },
+        "bevande":{
+            "birra":{
+                "name":"Birra",
+                "description":"Birra",
+                "ingredients":{
+                    "birra": 1
+                },
+                "cost": 2
+            },
+            "giro_birre":{
+                "name":"Giro Birre",
+                "description":"8 birre in 1",
+                "ingredients":{
+                    "birra": 8
+                },
+                "cost": 14
+            },
+            "acqua_naturale":{
+                "name":"Acqua Naturale",
+                "description":"Acqua naturale da 1/2 litro",
+                "ingredients":{
+                    "acqua_naturale": 1
+                },
+                "cost": 0.5
+            },
+            "acqua_frizzante":{
+                "name":"Acqua Frizzante",
+                "description":"Acqua frizzante da 1/2 litro",
+                "ingredients":{
+                    "acqua_frizzante": 1
+                },
+                "cost": 0.5
+            },
+            "spritz_aperol":{
+                "name":"Spritz Aperol",
+                "description":"Spritz Aperol",
+                "ingredients":{
+                    "acqua_frizzante": 1,
+                    "aperol": 1
+                },
+                "cost": 2
+            },
+            "the_lattina":{
+                "name":"The in lattina",
+                "description":"The in lattina",
+                "ingredients":{
+                    "lattina_the": 1
+                },
+                "cost": 1.5
+            },
+            "aranciata_lattina":{
+                "name":"Aranciata in lattina",
+                "description":"Aranciata in lattina",
+                "ingredients":{
+                    "lattina_aranciata": 1
+                },
+                "cost": 1.5
+            },
+            "cocacola_lattina":{
+                "name":"Coca Cola in lattina",
+                "description":"Coca Cola in lattina",
+                "ingredients":{
+                    "lattina_cocacola": 1
+                },
+                "cost": 1.5
+            },
+            "vino_rosso":{
+                "name":"Vino Rosso alla spina",
+                "description":"Vino Rosso alla spina",
+                "ingredients":{
+                    "vino_rosso": 1
+                },
+                "cost": 0.8
+            },
+            "vino_bianco":{
+                "name":"Vino Bianco alla spina",
+                "description":"Vino Bianco alla spina",
+                "ingredients":{
+                    "vino_bianco": 1
+                },
+                "cost": 0.8
+            },
+            "vino_bianco_doc_bicchiere":{
+                "name":"Vino bianco DOC al bicchiere",
+                "description":"Vino bianco DOC al bicchiere",
+                "ingredients":{
+                    "vino_bianco": 1
+                },
+                "cost": 2
+            },
+            "vino_rosso_doc_bicchiere":{
+                "name":"Vino rosso DOC al bicchiere",
+                "description":"Vino rosso DOC al bicchiere",
+                "ingredients":{
+                    "vino_rosso": 1
+                },
+                "cost": 2
+            },
+            "caraffa_vino_bianco_05":{
+                "name":"Caraffa vino bianco alla spina 1/2 litro",
+                "description":"Caraffa vino bianco alla spina 1/2 litro",
+                "ingredients":{
+                    "vino_bianco": 0.5
+                },
+                "cost": 2.5
+            },
+            "caraffa_vino_bianco_1":{
+                "name":"Caraffa vino bianco alla spina 1 litro",
+                "description":"Caraffa vino bianco alla spina 1 litro",
+                "ingredients":{
+                    "vino_bianco": 1
+                },
+                "cost": 4
+            },
+            "caraffa_vino_rosso_05":{
+                "name":"Caraffa vino rosso alla spina 1/2 litro",
+                "description":"Caraffa vino rosso alla spina 1/2 litro",
+                "ingredients":{
+                    "vino_rosso": 0.5
+                },
+                "cost": 2.5
+            },
+            "caraffa_vino_rosso_1":{
+                "name":"Caraffa vino rosso alla spina 1 litro",
+                "description":"Caraffa vino rosso alla spina 1 litro",
+                "ingredients":{
+                    "vino_rosso": 1
+                },
+                "cost": 4
+            },
+            "bottiglia_vino_bianco_doc":{
+                "name":"Bottiglia vino bianco DOC",
+                "description":"Bottiglia vino bianco DOC",
+                "ingredients":{
+                    "vino_bianco": 1
+                },
+                "cost": 10
+            },
+            "bottiglia_vino_rosso_doc":{
+                "name":"Bottiglia vino rosso DOC",
+                "description":"Bottiglia vino rosso DOC",
+                "ingredients":{
+                    "vino_rosso": 1
+                },
+                "cost": 10
+            },
+            "caffe":{
+                "name":"Caffe",
+                "description":"Caffe",
+                "ingredients":{
+                    "caffe": 1
+                },
+                "cost": 1
+            },
+            "caffe_corretto_grappa":{
+                "name":"Caffe corretto con grappa",
+                "description":"Caffe corretto con grappa",
+                "ingredients":{
+                    "caffe": 1,
+                    "grappa": 1
+                },
+                "cost": 1.30
+            },
+            "caffe_corretto_prugna":{
+                "name":"Caffe corretto con prugna",
+                "description":"Caffe corretto con prugna",
+                "ingredients":{
+                    "caffe": 1,
+                    "prugna": 1
+                },
+                "cost": 1.30
+            }
+        }
+    }
+}
