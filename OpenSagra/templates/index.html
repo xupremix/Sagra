@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block login %}
+<li class="nav-item">
+    <a href="{{ url_for('login') }}">
+        <button class="btn btn-outline-info my-2 my-sm-0">Login</button>
+    </a>
+</li>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col width-100">
+            <div class="card">
+                <div class="card-header text-center font-weight-bold">
+                    <h3>Pietanze disponibili oggi</h3>
+                </div>
+                <div class="card-body text-center">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="text-center">
+                                <th class="col-md-4 align-middle">Nome</th>
+                                <th class="col-md-4 align-middle">Composizione</th>
+                                <th class="col-md-4 align-middle" id="last-column">Prezzo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for plate in plates %}
+                                <tr class="text-center">
+                                    <td class="align-middle">{{ plate[3] }}</td>
+                                    <td class="align-middle">
+                                        {% for ingredient in plate[4] %}
+                                        &#8226; {{ ingredient[0] }}<br>
+                                        {% endfor %}
+                                    </td>
+                                    <td class="align-middle">{{ plate[5] }}€</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

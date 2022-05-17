@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-header text-center font-weight-bold">
+                <h3>Pietanze disponibili</h3>
+            </div>
+            {% if plates %}
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="text-center">
+                            <th class="align-middle">Tipo</th>
+                            <th class="align-middle">Nome</th>
+                            <th class="align-middle">Descrizione</th>
+                            <th class="align-middle">Ingredienti - Quantità</th>
+                            <th class="align-middle">Prezzo Totale</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for plate in plates %}
+                            <tr class="text-center">
+                                <td class="align-middle">{{ plate[1] }}</td>
+                                <td class="align-middle">{{ plate[2] }}</td>
+                                <td class="align-middle">{{ plate[3] }}</td>
+                                <td class="align-middle">
+                                    {% for ingredient in plate[4] %}
+                                    {{ ingredient[0] }} - {{ ingredient[1] }}<br>
+                                    {% endfor %}
+                                </td>
+                                <td class="align-middle">{{ plate[5] }}€</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="card-body">
+                <span class="text-center">
+                    <p class="text-center">Non ci sono pietanze disponibili</p>
+                    <p class="text-center">Ricontrolla gli ingredienti selezionati</p>
+                </span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+<div class="text-center justify-content-center p-4">
+    <a href="{{ url_for('cashier') }}" class="btn btn-danger">Go Back</a>
+</div>
+{% endblock %}

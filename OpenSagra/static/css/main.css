@@ -1,0 +1,28 @@
+body {
+    background-image: url("/static/img/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.big-checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+th,
+td,
+p {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+h3,
+h4 {
+    font-family: 'Koulen', sans-serif !important;
+}
+
+table,
+tbody {
+    background: rgba(255, 255, 255, 1) !important;
+}
